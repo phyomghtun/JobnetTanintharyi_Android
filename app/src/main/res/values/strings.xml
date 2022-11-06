@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Jobnet Tanintharyi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="t_1">ထားဝယ္ၿမိဳ႕နယ္</string>
+    <string name="t_2">ေရျဖဴၿမိဳ႕နယ္</string>
+    <string name="t_3">ေလာင္းလုံၿမိဳ႕နယ္</string>
+    <string name="t_4">သရက္ေခ်ာင္းၿမိဳ႕နယ္</string>
+    <string name="t_5">ပုေလာၿမိဳ႕နယ္</string>
+    <string name="t_6">ၿမိတ္ၿမိဳ႕နယ္</string>
+    <string name="t_7">ကၽြန္းစုၿမိဳ႕နယ္</string>
+    <string name="t_8">တနသၤာရီၿမိဳ႕နယ္</string>
+    <string name="t_9">ဘုတ္ျပင္းၿမိဳ႕နယ္</string>
+    <string name="t_10">ေကာ့ေသာင္းၿမိဳ႕နယ္</string>
+
+</resources>

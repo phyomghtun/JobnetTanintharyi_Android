@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jobnet.tanintharyi.PostActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:titleTextColor="@android:color/white"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:id="@+id/pp"
+            android:layout_below="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_margin="10dp"
+                android:id="@+id/profile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/profile"
+                app:civ_border_width="1dp"
+                android:layout_centerHorizontal="true"
+                app:civ_border_color="#48648A"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:text="Name"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:text="Date"
+                        android:textColor="#3F3E3E"
+                        android:textSize="13dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginStart="6dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_marginTop="2dp"
+                        android:layout_marginStart="6dp"
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:src="@drawable/date"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/border"
+            android:id="@+id/ph"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="10dp"
+            android:layout_below="@+id/pp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:hint="Enter Contact Phone"
+                android:textSize="15dp"
+                android:inputType="number"
+                android:id="@+id/contact_phone"
+                android:background="@drawable/rounded_edittext"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                tools:ignore="Autofill,HardcodedText,SpUsage,TextFields" />
+
+            <Spinner
+                android:textSize="17dp"
+                android:id="@+id/static_spinner"
+                android:layout_marginStart="34dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/ph">
+
+            <EditText
+                android:id="@+id/et_post"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:inputType="textMultiLine"
+                android:singleLine="false"
+                android:overScrollMode="always"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:hint="Create Job Post"
+                android:gravity="top|left"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </EditText>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

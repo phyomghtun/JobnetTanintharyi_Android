@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1009615966848",
+    "firebase_url": "https://jobnet-tanintharyi-f0d90.firebaseio.com",
+    "project_id": "jobnet-tanintharyi-f0d90",
+    "storage_bucket": "jobnet-tanintharyi-f0d90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009615966848:android:94a47638251eb84bd5cc65",
+        "android_client_info": {
+          "package_name": "com.jobnet.tanintharyi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009615966848-f2elk0gkamrreckuevlg67uu9c5l7iqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqGC9NmdakZVoM84ahK6isdmEYUrRVKBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009615966848-f2elk0gkamrreckuevlg67uu9c5l7iqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
